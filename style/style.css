@@ -1,0 +1,389 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf");
+    width: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    width: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.ttf");
+    width: 500;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a { 
+    font-weight: 400;
+  text-decoration: none;
+  color: #828282;
+}
+.clearfix {
+    clear: both;
+}
+
+.fix-size {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 135px;
+}
+.nav {
+    background-color: #E5E5E5;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+.ul-nav {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.li-nav {
+    float: left;
+    margin-left: 30px;
+}
+.li-nav>a {
+    color: #000;
+}
+
+.logo-face {
+    background-color: #fff;
+    border-bottom: 1px solid #EFEFEF;
+}
+.logo-box {
+    width: 1110px;
+    margin: 20px auto;
+    padding-bottom: 44px; 
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button-call {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;   
+    margin-top: 20px;
+}
+
+.number {
+    margin-right: 20px;
+    margin-top: 35px;
+    color: #000;
+}
+
+.white {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.ul-nav2 { 
+    width: 800px;
+    margin: 0 auto;
+}
+
+.view {
+    background-image:url("../image/Rectangle\ 2.png");
+    width: 100%;
+    height: 604px;
+    background-repeat: no-repeat;
+    padding-top: 192px;
+    color: #fff;
+    background-position: center;
+    background-color: #F13C6E;
+}
+
+.super-sofa {
+    width: 308px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+.p-sofa {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    width: 308px;
+}
+
+.b-details {
+    width: 170px;
+    height: 40px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    color: #FFFFFF;
+    margin-bottom: 206px;
+}
+
+main 
+{
+    width: 100%;
+    background-color: #EFEFEF;
+    padding-top: 80px;
+}
+
+.thing {
+    background-color: #FFFFFF;
+    width: 255px;
+    margin-left: 30px;
+   text-align: center;
+
+}
+
+.img-thing {
+    margin-bottom: 20px;
+}
+
+.h2 {
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.thing-card {
+    background-color: #fff;
+    padding-top: 25px;
+}
+
+.p-thing {
+   font-weight: 40px;
+    height: 33px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+
+}
+
+.buy {
+    width: 130px;
+    height: 35px;
+    background: #F13C6E;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.firstly {
+    margin-left: 0;
+}
+
+.frame {
+    float: left;
+    width: 540px;
+    height: 212px;
+    background-color: #F13C6E;
+    background-image: url(../image/mail.png);
+    background-repeat: no-repeat;
+    background-position:350px;
+    margin-bottom: 113px;
+}
+
+.info-box {
+    width: 265px;
+    padding-top: 35px;
+    padding-left: 40px;
+    color: #fff;
+}
+.mail-text {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.game {
+    text-align: left;
+    width: 235px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    text-align: center;
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    color: #C4C4C4;
+}
+
+.second {
+    margin-left: 20px;
+    background-image: url(../image/Vector.png);
+    background-repeat: no-repeat;
+    background-position:330px;
+}
+
+.button-shop {
+    color: white;
+    width: 170px;
+    height: 35px;
+    background-color: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: #e5e5e5;
+    margin-top: 61px;
+}
+
+.categoris {
+    width: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.price {
+    height: 19px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+
+}
+
+.ullist {
+    padding-top: 60px;
+    border-top: 1px solid #EFEFEF;;
+    margin-bottom: 60px;
+}
+
+.lilst {
+    width: 82px;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.navi {
+    font-family: "Roboto";
+    width: 255px;
+    margin-left: 30px;
+}
+
+.fresh {
+    margin-left: 0;
+}
+
+.cell {
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    width: 45px;
+    height: 46.05px;
+    margin-left: 30px;
+}
+
+.youtube {
+   margin-top: 13px;
+   margin-left: 10px;
+}
+
+.vk {
+    margin-top: 13px;
+    margin-left: 7px;
+}
+
+.fb {
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+.insta {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.cube {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #F13C6E;
+    border-radius: 6px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.little-cell {
+    height: 11.256734848022461px;
+    width: 11px;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    margin-left: 3.4px;
+    margin-top: 3px
+}
+
+.tinny-cell {
+    height: 1.4999585151672363px;
+    width: 1.465749740600586px;
+    border: 1px solid #F13C6E;
+    border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 9px;
+    margin-top: -3px
+}
+
+.sertification {
+    background-color: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+.politicy {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+
