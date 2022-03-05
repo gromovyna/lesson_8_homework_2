@@ -1,19 +1,7 @@
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Roboto-Bold.ttf");
-    width: 700;
-}
-
-@font-face {
-    font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.ttf");
-    width: 400;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Medium.ttf");
-    width: 500;
+    font-weight: 400;
 }
 
 body {
@@ -42,7 +30,6 @@ a {
 .box{
     width: 1110px;
     margin: 0 auto;
-    padding-bottom: 135px;
 }
 
 .nav {
@@ -59,6 +46,7 @@ a {
 .li-nav {
     float: left;
     margin-left: 30px;
+    font-size: 14px;
 }
 
 .li-nav>a {
@@ -68,6 +56,7 @@ a {
 .logo-face {
     background-color: #fff;
     border-bottom: 1px solid #EFEFEF;
+    padding-top: 100px;
 }
 
 .logo-box {
@@ -105,7 +94,7 @@ a {
 
 .number {
     margin-right: 20px;
-    margin-top: 35px;
+    margin-top: 33px;
     color: #000;
 }
 
@@ -131,11 +120,8 @@ a {
 }
 
 .super-sofa {
-    width: 308px;
     height: 44px;
-    font-weight: 500;
     font-size: 48px;
-    line-height: 56px;
     margin-bottom: 50px;
 }
 
@@ -154,7 +140,6 @@ a {
     box-sizing: border-box;
     border-radius: 40px;
     color: #FFFFFF;
-    margin-bottom: 206px;
 }
 
 main 
@@ -162,13 +147,14 @@ main
     width: 100%;
     background-color: #EFEFEF;
     padding-top: 80px;
+    padding-bottom: 103px;
 }
 
 .thing {
     background-color: #FFFFFF;
     width: 255px;
     margin-left: 30px;
-   text-align: center;
+    text-align: center;
 
 }
 
@@ -188,11 +174,11 @@ main
 }
 
 .p-thing {
-   font-weight: 40px;
     height: 33px;
     font-size: 14px;
     line-height: 20px;
     color: #333333;
+    margin-bottom: 20px;
 
 }
 
@@ -223,22 +209,22 @@ main
 }
 
 .info-box {
-    width: 265px;
     padding-top: 35px;
     padding-left: 40px;
     color: #fff;
 }
 
+.mail {
+    padding-top: 100px;
+}
+
 .mail-text {
+    font-weight: bolder;
     font-size: 18px;
-    line-height: 21px;
     margin-bottom: 25px;
 }
 
 .game {
-    text-align: left;
-    width: 235px;
-    height: 40px;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 25px;
@@ -280,22 +266,22 @@ footer {
     width: 40px;
     font-weight: 500;
     font-size: 16px;
+    padding-top: 100px;
     margin-bottom: 30px;
 }
 
 .price {
+    font-weight: bolder;
     height: 19px;
-    font-weight: 500;
     font-size: 21px;
     line-height: 25px;
-    text-align: center;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
 
 }
 
 .ullist {
-    padding-top: 60px;
+    padding-top: 25px;
     border-top: 1px solid #EFEFEF;;
     margin-bottom: 60px;
 }
@@ -304,7 +290,7 @@ footer {
     width: 82px;
     font-family: Roboto;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .navi {
@@ -390,5 +376,3 @@ footer {
 button {
     cursor: pointer;
 }
-
-
