@@ -376,3 +376,11 @@ footer {
 button {
     cursor: pointer;
 }
+
+.sertif {
+    font-size: 12px;
+}
+
+.lefted {
+    margin-left: 340px;
+}
