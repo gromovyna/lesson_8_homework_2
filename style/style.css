@@ -17,6 +17,7 @@ a {
     font-weight: 400;
     text-decoration: none;
     color: #828282;
+    display: block;
 }
 .clearfix {
     clear: both;
@@ -39,7 +40,7 @@ a {
 }
 
 .ul-nav {
-    width: 600px;
+    width: 437px;
     margin: 0 auto;
 }
 
@@ -56,12 +57,12 @@ a {
 .logo-face {
     background-color: #fff;
     border-bottom: 1px solid #EFEFEF;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .logo-box {
     width: 1110px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding-bottom: 44px; 
 }
 
@@ -104,9 +105,25 @@ a {
 }
 
 .ul-nav2 { 
-    width: 800px;
+    width: 672px;
     margin: 0 auto;
 }
+
+
+.li-nav2 {
+    float: left;
+    margin-left: 40px;
+}
+
+.li-nav2>a {
+    font-size: 16px;
+    color: black;
+}
+
+.first {
+    margin-left: 0;
+}
+
 
 .view {
     background-image:url("../image/Rectangle\ 2.png");
@@ -120,7 +137,6 @@ a {
 }
 
 .super-sofa {
-    height: 44px;
     font-size: 48px;
     margin-bottom: 50px;
 }
@@ -171,10 +187,10 @@ main
 .thing-card {
     background-color: #fff;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .p-thing {
-    height: 33px;
     font-size: 14px;
     line-height: 20px;
     color: #333333;
@@ -188,9 +204,7 @@ main
     background: #F13C6E;
     border-radius: 30px;
     border: none;
-    margin-top: 20px;
     color: #FFFFFF;
-    margin-bottom: 25px;
 }
 
 .firstly {
@@ -271,7 +285,6 @@ footer {
 
 .price {
     font-weight: bolder;
-    height: 19px;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 0.05em;
@@ -286,7 +299,7 @@ footer {
 }
 
 .lilst {
-    width: 82px;
+    display: block;
     font-family: Roboto;
     font-size: 12px;
     margin-bottom: 15px;
@@ -361,7 +374,7 @@ footer {
 .sertification {
     background-color: #EFEFEF;
     padding-top: 25px;
-    padding-bottom: 65px;
+    padding-bottom: 25px;
 }
 
 .politicy {
@@ -377,9 +390,11 @@ button {
 }
 
 .sertif {
+    display: inline;
     font-size: 12px;
 }
 
 .lefted {
+    display: inline;
     margin-left: 340px;
 }
